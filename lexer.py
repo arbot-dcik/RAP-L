@@ -72,6 +72,4 @@ def lexer(text):
     return tokens,0
 
 if __name__ == '__main__':
-    t,c = lexer("1.1.")
-    for i in t:
-        print(i)
+    tokens,code = lexer('print("Hello World!")')
